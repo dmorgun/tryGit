@@ -102,3 +102,10 @@ Remove all the things!
 Removing one file is great and all, but what if you want to remove an entire folder? You can use the recursive option on git rm:
 git rm -r folder_of_cats
 This will recursively remove all folders and files from the given directory.
+========================
+Commiting Branch Changes
+Now that you've removed all the cats you'll need to commit your changes.
+
+Feel free to run git status to check the changes you're about to commit.
+
+git commit -m "Remove all the cats"
