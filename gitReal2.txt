@@ -1,0 +1,35 @@
+
+$ git status
+
+$ git diff
+
+$ git add ostrich.html
+
+$ git diff --staged
+
+$ git status
+
+$ git reset HEAD ostrich.html
+
+$ git commit -a -m "Add link to the cats section"
+
+$ git add cats.html
+
+$ git commit --amend -m "Add cats.html"
+
+$ git reset --soft HEAD^
+
+$ git reset --hard HEAD^
+
+$ git checkout -- cats.html index.html
+
+$ git commit -a -m "Add banner about badgers"
+
+$ git reset --hard HEAD^
+
+$ git remote origin git@example.com:example/petshop.git
+
+$ git remote add origin git@example.com:example/petshop.git
+
+$ git push -u origin master
+
